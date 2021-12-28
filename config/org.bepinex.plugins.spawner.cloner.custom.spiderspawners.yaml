@@ -1,33 +1,147 @@
 ForestSpiderNest:
   originalPrefabName: Spawner_GreydwarfNest
-  newSpawnerName: ForestSpiderNest
-  HoverText: 'Spider den'
+  hoverText: 'Spider den'
   spawnRadius: 2
   nearRadius: 30
   farRadius: 200
   triggerDistance: 80
-  levelUpChance: 30
-  maxNear: 3
-  maxTotal: 10
+  levelUpChance: 15
+  maxNear: 2
+  maxTotal: 5
   spawnTimer: 0
   spawnIntervalSeconds: 20
   spawnOnGroundOnly: true
   setPatrolSpawnPoint: true
-  sizeScaleFactor: 0.5
+  sizeScaleFactor: 0.3
   spawns:
   - prefabName: ForestSpider
+    minLevel: 0
+    maxLevel: 1
+    weight: 3
+  - prefabName: TreeSpider
     minLevel: 1
     maxLevel: 3
-    weight: 3
+    weight: 1
   spawnerHealth: 150
   damageModifiers:
     mBlunt: Resistant
     mSlash: Normal
-    mPierce: Resistant
+    mPierce: VeryResistant
     mChop: Normal
     mPickaxe: Ignore
     mFire: Weak
     mFrost: Immune
+    mLightning: Immune
+    mPoison: Immune
+    mSpirit: Ignore
+    
+SwampSpiderNest:
+  originalPrefabName: Spawner_GreydwarfNest
+  hoverText: 'Something is lurking in this den'
+  spawnRadius: 2
+  nearRadius: 30
+  farRadius: 200
+  triggerDistance: 80
+  levelUpChance: 15
+  maxNear: 5
+  maxTotal: 20
+  spawnTimer: 0
+  spawnIntervalSeconds: 7
+  spawnOnGroundOnly: true
+  setPatrolSpawnPoint: true
+  sizeScaleFactor: 0.2
+  spawns:
+    - prefabName: BlackSpider
+      minLevel: 0
+      maxLevel: 1
+      weight: 1
+  spawnerHealth: 250
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: VeryResistant
+    mChop: Normal
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Immune
+    mPoison: Immune
+    mSpirit: Ignore
+    
+MountainSpiderNest:
+  originalPrefabName: Spawner_GreydwarfNest
+  hoverText: 'Icy spider den'
+  spawnRadius: 2
+  nearRadius: 30
+  farRadius: 200
+  triggerDistance: 80
+  levelUpChance: 15
+  maxNear: 2
+  maxTotal: 5
+  spawnTimer: 0
+  spawnIntervalSeconds: 20
+  spawnOnGroundOnly: true
+  setPatrolSpawnPoint: true
+  sizeScaleFactor: 0.3
+  spawns:
+    - prefabName: FrostSpider
+      minLevel: 0
+      maxLevel: 1
+      weight: 4
+    - prefabName: FrigidSpider
+      minLevel: 1
+      maxLevel: 3
+      weight: 1
+  spawnerHealth: 400
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: VeryResistant
+    mChop: Normal
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Immune
+    mPoison: Immune
+    mSpirit: Ignore
+    
+PlainsSpiderNest:
+  originalPrefabName: Spawner_GreydwarfNest
+  hoverText: 'Spider den'
+  spawnRadius: 2
+  nearRadius: 30
+  farRadius: 200
+  triggerDistance: 80
+  levelUpChance: 15
+  maxNear: 2
+  maxTotal: 5
+  spawnTimer: 0
+  spawnIntervalSeconds: 20
+  spawnOnGroundOnly: true
+  setPatrolSpawnPoint: true
+  sizeScaleFactor: 0.3
+  spawns:
+    - prefabName: TanSpider
+      minLevel: 0
+      maxLevel: 1
+      weight: 8
+    - prefabName: BrownSpider
+      minLevel: 1
+      maxLevel: 2
+      weight: 2
+    - prefabName: GreenSpider
+      minLevel: 3
+      maxLevel: 5
+      weight: 1
+  spawnerHealth: 800
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: VeryResistant
+    mChop: Normal
+    mPickaxe: Ignore
+    mFire: Immune
+    mFrost: Weak
     mLightning: Immune
     mPoison: Immune
     mSpirit: Ignore

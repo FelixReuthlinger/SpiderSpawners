@@ -10,7 +10,16 @@ Tiny mod that uses
 * [MonsterLabZ](https://valheim.thunderstore.io/package/MonsterLabZ/MonsterLabZ/)
 * [SpawnThat](https://valheim.thunderstore.io/package/ASharpPen/Spawn_That/)
 
-And adds a set of complete and ready to use spawn configs for the spiders creatures of MonsterLabZ.
+And adds a set of complete and ready to use spawn configs for the spiders creatures of MonsterLabZ
+
+This mod is using SpawnThat's world spawner ID range (make sure this doesn't conflict with other mods):
+* WorldSpawner.4991 - WorldSpawner.4999
+
+The setting defaults will create spider nests in those biomes:
+* Black Forest
+* Swamp
+* Mountains
+* Plains
 
 ### Additional handy information
 
