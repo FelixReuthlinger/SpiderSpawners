@@ -1,0 +1,322 @@
+FrigidSpider:
+  internalName: Frigid Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+ForestSpider:
+  internalName: Forest Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+TanSpider:
+  internalName: Tan Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+GreenSpider:
+  internalName: Green Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+TreeSpider:
+  internalName: Tree Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+BrownSpider:
+  internalName: Brown Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+BlackSpider:
+  internalName: Black Spider
+  faction: ForestMonsters
+  group: ''
+  health: 40
+  damageModifiers:
+    mBlunt: Normal
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Weak
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Normal
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 0
+    mSlash: 0
+    mPierce: 60
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 0
+    mSpirit: 0
+  averageTotalDamage: 60
+  averageTotalDamageToPlayer: 60
+  allItemNamesContributingToDamage:
+  - small_spider_attack
+  defaultItemAndRandomWeaponsNames:
+  - small_spider_attack
+FrostSpider:
+  internalName: Frost Spider
+  faction: ForestMonsters
+  group: ''
+  health: 90
+  damageModifiers:
+    mBlunt: Resistant
+    mSlash: Normal
+    mPierce: Normal
+    mChop: Ignore
+    mPickaxe: Ignore
+    mFire: Weak
+    mFrost: Immune
+    mLightning: Normal
+    mPoison: Immune
+    mSpirit: Immune
+  defeatSetGlobalKey: ''
+  averageDamageTypes:
+    mDamage: 0
+    mBlunt: 15
+    mSlash: 0
+    mPierce: 15
+    mChop: 0
+    mPickaxe: 0
+    mFire: 0
+    mFrost: 0
+    mLightning: 0
+    mPoison: 45
+    mSpirit: 0
+  averageTotalDamage: 75
+  averageTotalDamageToPlayer: 75
+  allItemNamesContributingToDamage:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
+  defaultItemAndRandomWeaponsNames:
+  - spider_leftattack
+  - spider_rightattack
+  - spider_jump
+  - web_attack
