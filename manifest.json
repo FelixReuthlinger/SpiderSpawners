@@ -5,6 +5,7 @@
   "website_url": "https://github.com/FelixReuthlinger/SpiderSpawners",
   "dependencies": [
     "FixItFelix-SpawnerCloner-0.2.1",
+    "FixItFelix-CreatureCloner-0.1.0",
     "ASharpPen-Spawn_That-0.11.6",
     "MonsterLabZ-MonsterLabZ-1.7.0",
     "ValheimModding-Jotunn-2.4.5",

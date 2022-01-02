@@ -7,6 +7,7 @@ Adding Clones of Greydwarf nests to spawn MonsterLabZ spiders from them.
 Tiny mod that uses
 
 * [SpawnerCloner](https://valheim.thunderstore.io/package/FixItFelix/SpawnerCloner/)
+* [CreatureCloner](https://valheim.thunderstore.io/package/FixItFelix/CreatureCloner/)
 * [MonsterLabZ](https://valheim.thunderstore.io/package/MonsterLabZ/MonsterLabZ/)
 * [SpawnThat](https://valheim.thunderstore.io/package/ASharpPen/Spawn_That/)
 
@@ -15,11 +16,20 @@ And adds a set of complete and ready to use spawn configs for the spiders creatu
 This mod is using SpawnThat's world spawner ID range (make sure this doesn't conflict with other mods):
 * WorldSpawner.4991 - WorldSpawner.4999
 
-The setting defaults will create spider nests in those biomes:
-* Black Forest
-* Swamp
-* Mountains
-* Plains
+The setting defaults will create spider nests in those biomes (like "Biome -> Spawner -> Creature"):
+* Meadows -> MeadowsSpiderNest -> MeadowsSpider
+* Black Forest -> BlackForestSpiderNest -> BlackForestSpider
+* Swamp -> SwampSpiderNest -> LurkingSpiderSwamp
+* Mountains -> MountainSpiderNest -> SnowSpiderMountain
+* Plains -> PlainsSpiderNest -> TanSpiderPlains / BrownSpiderPlains
+
+The cloned creatures are added to the game (like "Creature (original prefab, faction, health)"):
+* MeadowsSpider (TreeSpider, ForestMonsters, 50)
+* BlackForestSpider (ForestSpider, ForestMonsters, 100)
+* LurkingSpiderSwamp (BlackSpider, Undead, 40)
+* SnowSpiderMountain (FrigidSpider, MountainMonsters, 200)
+* TanSpiderPlains (TanSpider, PlainsMonsters, 250)
+* BrownSpiderPlains (BrownSpider, PlainsMonsters, 250)
 
 ### Additional handy information
 
